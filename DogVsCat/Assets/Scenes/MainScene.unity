@@ -522,6 +522,7 @@ MonoBehaviour:
   levelFront: {fileID: 1363357319}
   normalCat: {fileID: 7584060947909264105, guid: cdaedd467f5597d428c2739f9fef9ac4, type: 3}
   fatCat: {fileID: 6234188902097689212, guid: 84cb1ab5c6556db4f92ff1f048ff838d, type: 3}
+  pirateCat: {fileID: 6988187002468723688, guid: aa39062589341484ead792568682bdfc, type: 3}
 --- !u!1 &964458200
 GameObject:
   m_ObjectHideFlags: 0

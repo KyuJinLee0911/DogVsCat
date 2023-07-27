@@ -68,6 +68,8 @@ public class Cat : MonoBehaviour
                 transform.position += new Vector3(0.0f, -0.05f, 0.0f);
             else if (catType == CatType.CT_FAT)
                 transform.position += new Vector3(0, -0.03f, 0);
+            else if (catType == CatType.CT_PIRATE)
+                transform.position += new Vector3(0, -0.01f, 0);
         }
         else
         {

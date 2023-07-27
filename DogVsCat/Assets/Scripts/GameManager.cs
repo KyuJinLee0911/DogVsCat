@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject normalCat;
     public GameObject fatCat;
+    public GameObject pirateCat;
 
     private void Awake()
     {
@@ -75,12 +76,19 @@ public class GameManager : MonoBehaviour
             float p = Random.Range(0, 10);
             if(p<5) Instantiate(normalCat);
         }
-        else if(level >= 3)
+        else if(level == 3)
         {
             float p = Random.Range(0, 10);
             if(p<5) Instantiate(normalCat);
 
             Instantiate(fatCat);
+        }
+        else if(level >= 4)
+        {
+            float p = Random.Range(0, 10);
+            if(p<5) Instantiate(normalCat);
+
+            Instantiate(pirateCat);
         }
         
     }
